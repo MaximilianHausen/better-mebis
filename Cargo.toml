@@ -1,2 +1,2 @@
 [workspace]
-members = ["content-scripts/idp-theming"]
+members = ["common", "background-script", "content-scripts/idp-theming"]

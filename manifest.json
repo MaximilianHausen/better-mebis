@@ -3,6 +3,10 @@
     "name": "Better Mebis",
     "description": "Verbesserungen für die Mebis UI (lernplattform.mebis.bayern.de)",
     "version": "0.1.0",
+    "background": {
+        "service_worker": "background-script/starter.js",
+        "type": "module"
+    },
     "content_scripts": [
         {
             "matches": [
@@ -17,7 +21,8 @@
     "web_accessible_resources": [
         {
             "resources": [
-                "idp-theming/idp_theming_bg.wasm"
+                "idp-theming/idp_theming_bg.wasm",
+                "background-script/background_script_bg.wasm"
             ],
             "matches": [
                 "https://idp.mebis.bayern.de/*"
@@ -63,7 +68,11 @@
         "browser_style": true
     },
     "permissions": [
+        "tabs",
         "scripting"
+    ],
+    "host_permissions": [
+        "https://*.mebis.bayern.de/*"
     ],
     "content_security_policy": {
         "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
