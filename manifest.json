@@ -12,6 +12,9 @@
             "matches": [
                 "https://idp.mebis.bayern.de/*"
             ],
+            "css": [
+                "idp-theming/style.css"
+            ],
             "js": [
                 "idp-theming/idp_theming.js",
                 "idp-theming/starter.js"

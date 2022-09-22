@@ -1,0 +1,19 @@
+.dark .dark\:ext-bg-orange-dark {
+    --tw-bg-opacity: 1;
+    background-color: rgb(239 116 48 / var(--tw-bg-opacity))
+}
+
+.dark .dark\:ext-border-orange-dark {
+    --tw-border-opacity: 1;
+    border-color: rgb(239 116 48 / var(--tw-border-opacity))
+}
+
+.dark .group:hover .dark\:group-hover\:ext-bg-orange-800 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(242 144 89 / var(--tw-bg-opacity))
+}
+
+.dark .group:hover .dark\:group-hover\:ext-border-orange-800 {
+    --tw-border-opacity: 1;
+    border-color: rgb(242 144 89 / var(--tw-border-opacity))
+}
