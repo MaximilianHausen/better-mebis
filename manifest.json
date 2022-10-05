@@ -14,6 +14,14 @@
             "js": [
                 "idp-theming/script.js"
             ]
+        },
+        {
+            "matches": [
+                "https://lernplattform.mebis.bayern.de/*"
+            ],
+            "css": [
+                "main/style.css"
+            ]
         }
     ],
     "icons": {
