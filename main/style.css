@@ -20,3 +20,18 @@ html.dark.mebis #topofscroll {
 #searchinput, #groupingdropdown, #sortingdropdown, #displaydropdown {
     height: 55px !important;
 }
+
+/* Dark Scrollbar */
+
+.mebis.dark * {
+    scrollbar-color: var(--color-gray-light) var(--color-secondary) !important;
+}
+
+.mebis.dark *::-webkit-scrollbar-track {
+    background: var(--color-secondary) !important;
+}
+
+.mebis.dark *::-webkit-scrollbar-thumb {
+    background-color: var(--color-gray-light) !important;
+    border: 3px solid var(--color-secondary) !important;
+}
