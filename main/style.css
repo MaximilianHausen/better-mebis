@@ -7,12 +7,20 @@ html.dark.mebis #topofscroll {
 .activity-item:not(.activityinline) {
     border-style: none !important;
     border-bottom-style: solid !important;
-    border-bottom-color: var(--color-gray-light) !important;
+    border-bottom-color: rgba(0, 0, 0, .125) !important;
 }
 
 .mebis.dark {
     --color-button-border: var(--color-gray-light) !important;
     --color-input-border: var(--color-gray-light) !important;
+}
+
+html.dark.mebis .dropdown-menu {
+    border-color: var(--color-gray-light) !important;
+}
+
+.dropdown-divider {
+    border-top-color: var(--color-gray-light) !important;
 }
 
 /* Consistent Button Height */
@@ -33,5 +41,5 @@ html.dark.mebis #topofscroll {
 
 .mebis.dark *::-webkit-scrollbar-thumb {
     background-color: var(--color-gray-light) !important;
-    border: 3px solid var(--color-secondary) !important;
+    border-color: var(--color-secondary) !important;
 }
