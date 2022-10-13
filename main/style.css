@@ -1,6 +1,10 @@
 /* Unobtrusive Borders */
 
-html.dark.mebis #topofscroll {
+html.dark #topofscroll {
+    border: none !important;
+}
+
+html.dark .card {
     border: none !important;
 }
 
