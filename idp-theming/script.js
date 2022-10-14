@@ -13,6 +13,9 @@ for (let e of window.document.querySelectorAll(".font-display")) {
 for (let e of window.document.querySelectorAll("legend")) {
     e.classList.add("dark:text-white");
 }
+for (let e of window.document.querySelectorAll("p")) {
+    e.classList.add("dark:text-white");
+}
 
 for (let e of window.document.querySelectorAll("input")) {
     e.classList.add("dark:bg-blue-900", "dark:text-white");
