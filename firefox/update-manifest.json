@@ -1,0 +1,12 @@
+{
+  "addons": {
+    "{923028a2-6618-4df2-933b-51499219da8e}": {
+      "updates": [
+        {
+          "version": "1.0",
+          "update_link": "https://github.com/MaximilianHausen/better-mebis/releases/download/v1.0/better-mebis-firefox-1.0.xpi"
+        }
+      ]
+    }
+  }
+}
