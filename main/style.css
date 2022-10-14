@@ -11,15 +11,15 @@ html.dark .card {
 .activity-item:not(.activityinline) {
     border-style: none !important;
     border-bottom-style: solid !important;
-    border-bottom-color: rgba(0, 0, 0, .125) !important;
+    border-bottom-color: var(--color-gray-light) !important;
 }
 
-.mebis.dark {
+html.dark {
     --color-button-border: var(--color-gray-light) !important;
     --color-input-border: var(--color-gray-light) !important;
 }
 
-html.dark.mebis .dropdown-menu {
+html.dark .dropdown-menu {
     border-color: var(--color-gray-light) !important;
 }
 
@@ -35,15 +35,47 @@ html.dark.mebis .dropdown-menu {
 
 /* Dark Scrollbar */
 
-.mebis.dark * {
+html.dark * {
     scrollbar-color: var(--color-gray-light) var(--color-secondary) !important;
 }
 
-.mebis.dark *::-webkit-scrollbar-track {
+html.dark *::-webkit-scrollbar-track {
     background: var(--color-secondary) !important;
 }
 
-.mebis.dark *::-webkit-scrollbar-thumb {
+html.dark *::-webkit-scrollbar-thumb {
     background-color: var(--color-gray-light) !important;
     border-color: var(--color-secondary) !important;
+}
+
+/* Compact activities */
+
+.section .activity {
+    padding: 0 !important;
+}
+
+.activity-item:not(.activityinline) {
+    padding: 1.1rem !important;
+}
+
+.courseicon {
+    width: 3rem !important;
+    height: 3rem !important;
+}
+
+.courseicon .activityicon {
+    width: 1.75rem !important;
+    height: 1.75rem !important;
+}
+
+.activity-info {
+    padding-bottom: 0 !important;
+}
+
+.activity-item .activity-info {
+    align-self: center !important;
+}
+
+.activityiconcontainer {
+    display: flex !important;
 }
