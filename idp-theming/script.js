@@ -7,13 +7,7 @@ for (let e of window.document.querySelectorAll(".bg-white")) {
     e.classList.add("dark:bg-blue-900");
 }
 
-for (let e of window.document.querySelectorAll(".font-display")) {
-    e.classList.add("dark:text-white");
-}
-for (let e of window.document.querySelectorAll("legend")) {
-    e.classList.add("dark:text-white");
-}
-for (let e of window.document.querySelectorAll("p")) {
+for (let e of window.document.querySelectorAll(".font-display, legend, p, .mbs_message_header, .mbs_message_body")) {
     e.classList.add("dark:text-white");
 }
 
@@ -28,7 +22,7 @@ for (let e of window.document.querySelectorAll("button .bg-orange-800")) {
     e.classList.add("dark:group-hover:ext-border-orange-800");
 }
 
-// Get darkmode
+// Set darkmode
 chrome.storage.local.get('darkmode').then((result) => {
     if (result.darkmode) {
         window.document.body.classList.add("dark");
