@@ -1,3 +1,8 @@
+/* Variables */
+:root {
+    --color-dark-hover: rgb(28, 29, 48);
+}
+
 /* Unobtrusive Borders */
 
 html.dark #topofscroll {
@@ -78,4 +83,58 @@ html.dark *::-webkit-scrollbar-thumb {
 
 .activityiconcontainer {
     display: flex !important;
+}
+
+/* Course Navigation Menu */
+
+.secondary-navigation .navigation.moremenu {
+    height: inherit;
+}
+
+.moremenu {
+    border-bottom: none !important;
+    height: inherit;
+}
+
+.moremenu .nav-tabs {
+    display: flex !important;
+    column-gap: 5px !important;
+}
+
+.moremenu .nav-tabs .nav-link {
+    height: 40px;
+    border-radius: 8px !important;
+    transition: all .2s ease-in-out !important;
+}
+
+.moremenu .nav-tabs .nav-link.active {
+    border: 1px solid !important;
+    border-bottom: 4px solid !important;
+    border-color: var(--color-primary) !important;
+}
+
+html.dark .moremenu .nav-tabs .nav-link:hover {
+    background: var(--color-dark-hover) !important;
+}
+
+/* Course Navigation Tabs */
+.course-content .nav-tabs {
+    line-height: 1.2 !important;
+    border-bottom: none !important;
+    display: flex !important;
+    column-gap: 5px !important;
+}
+
+.course-content .nav-tabs .nav-link {
+    border: none !important;
+    border-radius: 5px !important;
+    transition: all .2s ease-in-out !important;
+}
+
+.course-content .nav-tabs .nav-link:hover {
+    border: none !important;
+}
+
+html.dark .course-content .nav-tabs .nav-link:not(.active):hover {
+    background: var(--color-dark-hover);
 }
