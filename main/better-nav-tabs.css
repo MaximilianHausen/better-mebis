@@ -1,0 +1,98 @@
+/* ==== Colors ==== */
+
+html.dark {
+    --color-hover: #1C1D30;
+}
+
+/* ==== Course Navigation Menu ==== */
+
+.secondary-navigation .navigation.moremenu {
+    height: inherit;
+}
+
+.moremenu {
+    border-bottom: none !important;
+    height: inherit;
+}
+
+.moremenu .nav-tabs {
+    display: flex !important;
+    column-gap: 5px !important;
+}
+
+.moremenu .nav-tabs .nav-link {
+    height: 40px;
+    border-radius: 8px !important;
+    transition: all .2s ease-in-out !important;
+}
+
+.moremenu .nav-tabs .nav-link.active {
+    border: 1px solid !important;
+    border-bottom: 4px solid !important;
+    border-color: var(--color-primary) !important;
+}
+
+html.dark .moremenu .nav-tabs .nav-link:hover {
+    background-color: var(--color-hover) !important;
+}
+
+/* ==== Course Navigation Tabs ==== */
+
+.course-content .nav-tabs {
+    line-height: 1.2 !important;
+    border-bottom: none !important;
+    display: flex !important;
+    column-gap: 5px !important;
+}
+
+.course-content .nav-tabs .nav-link {
+    border: none !important;
+    border-radius: 5px !important;
+    transition: all .2s ease-in-out !important;
+}
+
+.course-content .nav-tabs .nav-link:hover {
+    border: none !important;
+}
+
+html.dark .course-content .nav-tabs .nav-link:not(.active):hover {
+    background-color: var(--color-hover);
+}
+
+.nav-link innertab {
+    /* For colored tabs */
+    border-radius: 5px !important;
+}
+
+/* ==== Scrolling ==== */
+
+.nav {
+    flex-wrap: nowrap !important;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.nav::-webkit-scrollbar {
+    display: none;
+}
+
+.course-content .nav-tabs .nav-item {
+    /* Bigger scroll region to make scrolling easier */
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.nav-tabs .nav-item {
+    /* WTF why does the hidden scrollbar clip the border */
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Adjust margins to the bigger scroll region */
+.single-section.onetopic {
+    margin-top: 0 !important;
+}
+
+.course-content .nav-tabs {
+    margin-bottom: 0 !important;
+}

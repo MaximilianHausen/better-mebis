@@ -1,0 +1,26 @@
+html.dark {
+    --color-button-border: var(--color-gray-light) !important;
+    --color-input-border: var(--color-gray-light) !important;
+}
+
+html.dark #topofscroll {
+    border: none !important;
+}
+
+html.dark .card {
+    border: none !important;
+}
+
+.activity-item:not(.activityinline) {
+    border-style: none !important;
+    border-bottom-style: solid !important;
+    border-bottom-color: var(--color-gray-light) !important;
+}
+
+html.dark .dropdown-menu {
+    border-color: var(--color-gray-light) !important;
+}
+
+.dropdown-divider {
+    border-top-color: var(--color-gray-light) !important;
+}

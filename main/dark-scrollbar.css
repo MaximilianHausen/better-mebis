@@ -1,0 +1,12 @@
+html.dark * {
+    scrollbar-color: var(--color-gray-light) var(--color-secondary) !important;
+}
+
+html.dark *::-webkit-scrollbar-track {
+    background: var(--color-secondary) !important;
+}
+
+html.dark *::-webkit-scrollbar-thumb {
+    background-color: var(--color-gray-light) !important;
+    border-color: var(--color-secondary) !important;
+}

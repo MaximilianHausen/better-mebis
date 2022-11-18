@@ -20,7 +20,11 @@
                 "https://lernplattform.mebis.bayern.de/*"
             ],
             "css": [
-                "main/style.css"
+                "main/better-nav-tabs.css",
+                "main/compact-activities.css",
+                "main/consistent-button-height.css",
+                "main/dark-scrollbar.css",
+                "main/unobtrusive-borders.css"
             ],
             "js": [
                 "main/script.js"

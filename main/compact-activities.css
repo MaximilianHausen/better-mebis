@@ -1,0 +1,29 @@
+.section .activity {
+    padding: 0 !important;
+}
+
+.activity-item:not(.activityinline) {
+    padding: 1.1rem !important;
+}
+
+.courseicon {
+    width: 3rem !important;
+    height: 3rem !important;
+}
+
+.courseicon .activityicon {
+    width: 1.75rem !important;
+    height: 1.75rem !important;
+}
+
+.activity-info {
+    padding-bottom: 0 !important;
+}
+
+.activity-item .activity-info {
+    align-self: center !important;
+}
+
+.activityiconcontainer {
+    display: flex !important;
+}
