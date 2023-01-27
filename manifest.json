@@ -76,6 +76,7 @@
     ],
     "browser_specific_settings": {
         "gecko": {
+            "id": "{923028a2-6618-4df2-933b-51499219da8e}",
             "update_url": "https://maximilianhausen.github.io/better-mebis/firefox/update-manifest.json"
         }
     }
