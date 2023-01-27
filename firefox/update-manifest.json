@@ -3,6 +3,10 @@
     "{923028a2-6618-4df2-933b-51499219da8e}": {
       "updates": [
         {
+          "version": "1.1.1",
+          "update_link": "https://github.com/MaximilianHausen/better-mebis/releases/download/v1.1.1/better-mebis-1.1.1-firefox.xpi"
+        },
+        {
           "version": "1.1.0",
           "update_link": "https://github.com/MaximilianHausen/better-mebis/releases/download/v1.1.0/better-mebis-firefox-1.1.0.xpi"
         },
