@@ -22,7 +22,7 @@
             "css": [
                 "main/better-nav-tabs.css",
                 "main/compact-activities.css",
-                "main/consistent-button-height.css",
+                "main/consistent-filter-buttons.css",
                 "main/dark-scrollbar.css",
                 "main/unobtrusive-borders.css"
             ],

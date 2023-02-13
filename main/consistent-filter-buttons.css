@@ -1,3 +1,7 @@
 #searchinput, #groupingdropdown, #sortingdropdown, #displaydropdown {
     height: 55px !important;
 }
+
+.block-myoverview.block-cards div.row.no-gutters {
+    width: 100% !important;
+}
