@@ -5,3 +5,7 @@
 .block-myoverview.block-cards div.row.no-gutters {
     width: 100% !important;
 }
+
+#searchinput {
+    border-color: var(--color-button-border) !important;
+}
