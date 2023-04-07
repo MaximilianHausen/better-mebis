@@ -6,13 +6,13 @@
     "content_scripts": [
         {
             "matches": [
-                "https://idp.mebis.bayern.de/*"
+                "https://auth.bycs.de/*"
             ],
             "css": [
-                "idp-theming/style.css"
+                "login-theming/style.css"
             ],
             "js": [
-                "idp-theming/script.js"
+                "login-theming/script.js"
             ]
         },
         {
@@ -72,6 +72,7 @@
         "storage"
     ],
     "host_permissions": [
+        "https://auth.bycs.de/*",
         "https://*.mebis.bayern.de/*"
     ],
     "browser_specific_settings": {
